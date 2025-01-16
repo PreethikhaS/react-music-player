@@ -1,0 +1,13 @@
+/* CONTENT */
+
+.content {
+    display: grid;
+    grid-template-columns: 75% 25%;
+  }
+  
+  /* LEFT CONTENT */
+  
+  .left-content {
+    padding: 30px 20px;
+    color: #e5e5e5;
+  }

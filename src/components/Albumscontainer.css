@@ -1,0 +1,33 @@
+.artists h1 {
+    margin-bottom: 24px;
+  }
+  
+  .artist-container {
+    display: flex;
+    align-items: center;
+    padding: 0 0 12px;
+    overflow-x: auto;
+    column-gap: 20px;
+    cursor: grab;
+  }
+  
+  .artist img {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgba(169, 150, 253, 0.5);
+    width: 140px;
+    aspect-ratio: 1/1;
+    margin-bottom: 8px;
+    transition: all 0.2s;
+  }
+  
+  .artist img:hover {
+    border: 4px solid rgba(169, 150, 253, 0.6);
+  }
+  
+  .artist p {
+    font-size: clamp(0.9rem, 3vw, 1rem);
+    font-weight: 500;
+    text-align: center;
+  }
+  
